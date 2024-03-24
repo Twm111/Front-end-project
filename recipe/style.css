@@ -50,7 +50,7 @@ main {
 
 .top-image {
     width: 91%;
-    margin-top: 40px;
+    margin-top: 1.9em;
     padding: auto;
 }
 
@@ -142,7 +142,7 @@ hr {
 }
 
 .quantity {
-    margin-right: 50%;
+    margin-right: 40%;
     color: var(--Nutmeg);
     font-weight: bold;
 }
@@ -154,3 +154,11 @@ hr {
     align-items: center;
 }
 
+@media only screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 0;
+        border-radius: 0;
+    }
+}
