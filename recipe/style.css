@@ -45,6 +45,7 @@ main {
     background-color: white;
     margin: 40px;
     border-radius: 20px;
+    padding-bottom: 2em;
 }
 
 .top-image {
@@ -69,7 +70,7 @@ h1,h2 {
 }
 
 h1 {
-    margin: 40px 0 20px 0;
+    margin: 1em 0 1em 0;
     font-weight: 400;
     font-size: 3rem;
 }
@@ -77,7 +78,7 @@ h1 {
 h2{
     font-size: 1.9em;
     font-weight: 400;
-    margin: 1em 0;
+    margin: 0.8em 0 0.5em 0;
     color: var(--Nutmeg);
 }
 
@@ -87,15 +88,26 @@ h2{
     flex-direction: column;
     align-items: start;
     justify-content: space-around;
-    padding: 3rem;
-    margin: 2em 0;
+    padding: 2em 2em 0 2em;
+    margin: 1.5em 0;
     border-radius: 20px;
 }
 
-li {
+.container h3 {
+    font-size: 1.5em;
+    color: var(--Dark-raspberry);
+    margin: 0;
+    padding: 0;
+}
+
+.container ul {
     margin: 1em 0;
-    text-indent: 1em;
-    margin-left: 2.5em;
+}
+
+li {
+    margin: 0 0 1em 1.7em;
+    /* text-indent: 1em; */
+    padding-left: 0.8em;
     text-align: left;
 }
 
@@ -104,17 +116,41 @@ li::marker {
     font-weight: bold;
 }
 
-.container h3 {
-    font-size: 1.5em;
-    color: var(--Dark-raspberry);
+ol,ul {
+    margin: 2em 0;
 }
-
-
 
 .bold {
     font-weight: bold;
 }
 
 hr {
-    margin: 2em 0;
+    margin: 1em 0;
 }
+
+#nutrition-table {
+    width: 90%;
+    margin: 1.5em 0;
+}
+
+#nutrition-table hr {
+    margin: 1em 0;
+}
+
+.element {
+    margin-left: 2em;
+}
+
+.quantity {
+    margin-right: 50%;
+    color: var(--Nutmeg);
+    font-weight: bold;
+}
+
+#nutrition-table div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
